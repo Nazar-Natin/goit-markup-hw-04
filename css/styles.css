@@ -11,7 +11,8 @@ html {
 }
 h1,
 h2,
-h3 {
+h3,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -175,7 +176,7 @@ img {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.png);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -339,6 +340,9 @@ img {
 }
 .soc-footer {
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
   color: #ffffff;
 }
 .footer-soc-list {
