@@ -286,12 +286,13 @@ img {
 }
 .company-link:hover,
 .company-link:focus {
-  border: 1px solid #404bbf;
+  border-color: #404bbf;
+  color: #404bbf;
 }
 .company-ico {
   width: 104px;
   height: 56px;
-  fill: #8e8f99;
+  fill: currentColor;
 }
 .company-ico:hover,
 .company-ico:focus {
