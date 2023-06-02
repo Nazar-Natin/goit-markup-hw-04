@@ -109,10 +109,6 @@ img {
 .soc-link:focus {
   background-color: #404bbf;
 }
-.icons-advantage {
-  width: 64px;
-  height: 64px;
-}
 /* Index */
 /* Navigation bar */
 .header {
@@ -273,8 +269,6 @@ img {
   justify-content: center;
 }
 .soc-ico {
-  width: 16px;
-  height: 16px;
   fill: #f4f4fd;
 }
 /* Customers */
@@ -308,8 +302,6 @@ img {
   color: #404bbf;
 }
 .company-ico {
-  width: 104px;
-  height: 56px;
   fill: currentColor;
 }
 .company-ico:hover,
@@ -368,10 +360,6 @@ img {
 .soc-link-footer:hover,
 .soc-link-footer:focus {
   background-color: #31d0aa;
-}
-.soc-ico-footer {
-  width: 24px;
-  height: 24px;
 }
 /* Portfolio */
 .portfolio {
