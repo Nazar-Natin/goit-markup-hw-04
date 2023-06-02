@@ -361,6 +361,9 @@ img {
 .soc-link-footer:focus {
   background-color: #31d0aa;
 }
+.soc-ico-footer {
+  fill: #f4f4fd;
+}
 /* Portfolio */
 .portfolio {
   padding-top: 96px;
