@@ -8,13 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -27,7 +22,7 @@
           <a href="./index.html" class="link logo">Web<span class="logo-ending">Studio</span></a>
           <ul class="list">
             <li class="nav-item">
-              <a href="./index.html" class="link branches">Studio</a>
+              <a href="./index.html" class="link branches current-page">Studio</a>
             </li>
             <li class="nav-item">
               <a href="./portfolio.html" class="link branches">Portfolio</a>
@@ -56,7 +51,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="quote">Effective Solutions for Your Business</h1>
-          <button type="button" class="button order-button">Order Service</button>
+          <button type="button" class="button order-button" data-modal-open>Order Service</button>
         </div>
       </section>
       <!-- Advantages -->
@@ -378,5 +373,17 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-escape" data-modal-close>
+          <svg class="close-modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
